@@ -24,7 +24,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text-[40px] font-bold text-lime-200 leading-[0.8] md:text-[55px] w-min'
+            className='text-[40px] font-bold mx-auto text-lime-200 leading-[0.8] md:text-[55px] w-min'
             >
             <a href='/' className='font-bold'>BRIZUELA<br/> <span>SIDERAVICIUS</span></a>
           </motion.h1>

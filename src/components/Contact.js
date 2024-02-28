@@ -54,14 +54,8 @@ const Contact = () => {
           <div className='lg:w-[60%] scale-90 hover:scale-100 ease-in duration-300'>
           
             <motion.form 
-              action="https://formsubmit.co/brizuelasideravicius@gmail.com" 
-              method="POST"
-              variants={fadeIn('left', 0.3)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.3 }}
-              className='flex-1 border rounded-2xl flex flex-col gap-y-6 
-              pb-16 p-6 items-start'
+              action="https://formsubmit.co/brizuelasideravicius@gmail.com" method="POST" variants={fadeIn('left', 0.3)} initial='hidden' whileInView={'show'} viewport={{ once: false, amount: 0.3 }}
+              className='flex-1 border rounded-2xl flex flex-col gap-y-6 pb-16 p-6 items-start'
             >
               
               <input

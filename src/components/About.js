@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 text-center lg:text-start'
           >
-            <h2 className='h2 text-lime-200 w-max'>About us.</h2>
+            <h2 className='h2 text-lime-200 w-max mx-auto'>About us.</h2>
             <h3 className='h3 mb-4'>
               Nos dedicamos al <a href='/branding' className='text-gradient text-lime-200'>Diseño Gráfico</a>,
               <a href='/webdevelopment' className='text-gradient text-lime-200'> Desarrollo Web</a> y 
@@ -47,7 +47,7 @@ const About = () => {
               Creamos soluciones impactantes y auténticas que conectan con tu audiencia y generan resultados excepcionales.
             </p>
             {/* stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
@@ -85,7 +85,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex gap-x-8 items-center'>
+            <div className='flex gap-x-8 items-center justify-center'>
               <a href='https://www.wa.link/xtdsov'>
                   <button className='btn btn-lg btn-outline'>
                       Contactanos

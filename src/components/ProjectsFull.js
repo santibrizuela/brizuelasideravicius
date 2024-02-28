@@ -45,7 +45,7 @@ const ProjectsFull = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>Desarrollo de Marca y Landingpage</span>             
+            <span className='text-gradient'>Desarrollo de Marca y Web</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -120,7 +120,7 @@ const ProjectsFull = () => {
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Portfolio Vercel</span>
+            <span className='text-3xl text-white uppercase'>Portfolio</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
@@ -304,7 +304,7 @@ const ProjectsFull = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>Desarrollo de Marketing y Web</span>             
+            <span className='text-gradient'>Desarrollo de Marca y Web</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 

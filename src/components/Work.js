@@ -18,7 +18,7 @@ const Work = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='grid md:grid-cols-2 gap-10 mb-10 lg:mb-0 text-center mx-auto lg:text-start'>
+          className='grid lg:grid-cols-2 gap-10 mb-10 lg:mb-0 text-center mx-auto lg:text-start'>
           {/* text */}
           <div>
             
@@ -29,7 +29,7 @@ const Work = () => {
               </a>
             </h2>
             
-            <p className='max-w-sm text-[1.5rem] font-bold mb-16 mx-auto lg:mx-0'>
+            <p className='max-w-sm text-[1.3rem] font-bold mb-4 mx-auto lg:mx-0'>
               Diseñamos y creamos el <a href='/branding' className='text-gradient text-lime-200'>Logo</a> de 
               tu marca. Desarrollamos su <a href='/webdevelopment' className='text-gradient text-lime-200'>Sitio Web</a>, 
               perfiles en <a href='/marketing' className='text-gradient text-lime-200'>Redes Sociales</a> y 
