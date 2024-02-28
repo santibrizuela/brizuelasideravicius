@@ -55,7 +55,7 @@ const ProjectsFull = () => {
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://ferreteriadivano.com/' target='_blank' rel="noreferrer">
+                <a href='https://maderorree.vercel.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
