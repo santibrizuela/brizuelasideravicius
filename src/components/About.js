@@ -47,7 +47,7 @@ const About = () => {
               Creamos soluciones impactantes y auténticas que conectan con tu audiencia y generan resultados excepcionales.
             </p>
             {/* stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center'>
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center lg:justify-start'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
@@ -85,7 +85,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex gap-x-8 items-center justify-center'>
+            <div className='flex gap-x-8 items-center justify-center lg:justify-start'>
               <a href='https://www.wa.link/xtdsov'>
                   <button className='btn btn-lg btn-outline'>
                       Contactanos

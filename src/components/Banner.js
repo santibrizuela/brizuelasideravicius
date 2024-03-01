@@ -18,13 +18,13 @@ const Banner = () => {
     <div className='container mx-auto'>
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
         {/* text */}
-        <div className='flex-1 text-center font-secondary lg:text-left'>
+        <div className='flex-1 text-center font-secondary lg:text-left lg:justify-start'>
           <motion.h1 
             variants={fadeIn('up', 0.3)} 
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
-            className='text-[40px] font-bold mx-auto text-lime-200 leading-[0.8] md:text-[55px] w-min'
+            className='text-[40px] font-bold mx-auto lg:mx-0 text-lime-200 leading-[0.8] md:text-[55px] w-min'
             >
             <a href='/' className='font-bold'>BRIZUELA<br/> <span>SIDERAVICIUS</span></a>
           </motion.h1>
