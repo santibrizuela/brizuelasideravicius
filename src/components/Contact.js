@@ -44,7 +44,7 @@ const Contact = () => {
                 <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
                   <FaLinkedin className='icon-color'/>
                 </a>
-                <a href='https://www.wa.link/xtdsov' target='_blank' rel='noreferrer'>
+                <a href='https://wa.link/1q16ii' target='_blank' rel='noreferrer'>
                   <FaWhatsapp className='icon-color'/>
                 </a>
               </motion.div>

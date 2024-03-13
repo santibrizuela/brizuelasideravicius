@@ -27,7 +27,7 @@ const Main = () => {
                     <a href='/' className='font-bold'>FERRETERIA<br/> <span>DIVANO</span></a>
                 </motion.h1>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 text-gray-300'>
-                    <a target='_blank' rel='noreferrer' href='https://www.wa.link/xtdsov'>
+                    <a target='_blank' rel='noreferrer' href='https://wa.link/1q16ii'>
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <AiOutlineWhatsApp/>
                         </div>

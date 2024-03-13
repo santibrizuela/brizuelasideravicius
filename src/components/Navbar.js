@@ -119,7 +119,7 @@ const Navbar = () => {
               <div className='pt-30'>
                 <p className='uppercase tracking-widest pt-10'>Contacto</p>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                    <a target='_blank' rel='noreferrer' href='https://www.wa.link/xtdsov'>
+                    <a target='_blank' rel='noreferrer' href='https://wa.link/1q16ii'>
                         <div className='rounded-full icolink shadow-lg shadow-grey-400 p-6 hover:scale-110 ease-in duration-300'>
                             <FaWhatsapp/>
                         </div>

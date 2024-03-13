@@ -305,7 +305,7 @@ const Catalogo = () => {
                             {/* button */}
                             <div className='absolute bottom-full left-12 
                             group-hover:bottom-2 transition-all duration-700 z-50'>
-                                <a href='https://www.wa.link/xtdsov' target='_blank' rel="noreferrer">
+                                <a href='https://wa.link/1q16ii' target='_blank' rel="noreferrer">
                                     <button className='btn btn-sm'>Contactanos</button>
                                 </a>
                             </div>
