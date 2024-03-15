@@ -92,7 +92,7 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollos de Marca-Web y Marketing Digital</span>             
+              <span className='text-gradient'>Desarrollos Frontend y de Marca</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
@@ -102,7 +102,7 @@ const Work = () => {
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://www.ferreteriadivano.com/' target='_blank' rel="noreferrer">
+                <a href='https://ferreteria-divano.vercel.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
