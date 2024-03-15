@@ -8,7 +8,7 @@ import Img1 from '../assets/portfolioZetaGroup.png';
 import Img2 from '../assets/portfolioDivano3.png';
 import Img3 from '../assets/portfolioResisten.png';
 import Img4 from '../assets/portfolioNetflix.png';
-import Img5 from '../assets/portfolioMaderoRREE.png';
+import Img5 from '../assets/portfolioREO.png';
 import Img6 from '../assets/portfolioMadero.png';
 import Img7 from '../assets/portfolioBSVercel.png';
 import Img8 from '../assets/portfolioFood.png';
@@ -50,12 +50,12 @@ const ProjectsFull = () => {
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Madero RREE</span>
+            <span className='text-3xl text-white uppercase'>REOESTE</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://maderorree.vercel.app/' target='_blank' rel="noreferrer">
+                <a href='https://resistenciaselectricasoeste.vercel.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
