@@ -39,7 +39,7 @@ const Navbar = () => {
 
             
             <a 
-                href='#contact'
+                href='https://wa.link/1q16ii'
                 className='uppercase'
             >
                 <button className='btn btn-lg btn-outline flex items-center'>

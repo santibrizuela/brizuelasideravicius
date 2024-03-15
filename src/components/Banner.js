@@ -70,7 +70,7 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
           >
-            <a href='#contact'>
+            <a href='https://wa.link/1q16ii'>
               <button className='btn btn-lg'>
                 Contactanos
               </button>
