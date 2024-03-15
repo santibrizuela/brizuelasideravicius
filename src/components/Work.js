@@ -92,7 +92,7 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollos Frontend y de Marca</span>             
+              <span className='text-gradient'>Desarrollo Frontend y de Marca</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
