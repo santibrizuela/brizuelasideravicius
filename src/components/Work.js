@@ -10,7 +10,7 @@ import portfolioCe from '../assets/portfolioCePasteleria.png';
 
 const Work = () => {
   return (
-  <section className='section' id='work'>
+  <section className='section my-2' id='work'>
     <div className='container mx-auto'>
       <div className='grid lg:flex-row gap-x-10'>
         <motion.div 
