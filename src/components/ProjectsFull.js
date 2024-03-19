@@ -11,7 +11,7 @@ import Img4 from '../assets/portfolioNetflix.png';
 import Img5 from '../assets/portfolioREO.png';
 import Img6 from '../assets/portfolioMadero.png';
 import Img7 from '../assets/portfolioBSVercel.png';
-import Img8 from '../assets/portfolioFood.png';
+import Img8 from '../assets/portfolioSantibrizuela.png';
 import Img9 from '../assets/portfolioSavino.png';
 
 const ProjectsFull = () => {
@@ -227,17 +227,17 @@ const ProjectsFull = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>UI/UX Design ReactApp</span>             
+            <span className='text-gradient'>HTML-CSS-JS</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Food App</span>
+            <span className='text-3xl text-white uppercase'>Landingpage</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://food-app-24f5b.web.app/' target='_blank' rel="noreferrer">
+                <a href='https://santibrizuela.github.io/portfoliolanding/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
