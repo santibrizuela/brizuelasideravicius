@@ -51,12 +51,6 @@ body {
   border-radius: 100%;
 }
 
-.mask{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./assets/headerImg.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 @layer base {
   body {
     @apply font-secondary text-lg leading-8 text-white;
@@ -68,7 +62,7 @@ body {
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary text-white font-medium ease-in duration-300;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
@@ -86,19 +80,19 @@ body {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
   .icon-color{
-    @apply text-green-700 hover:text-lime-400;
+    @apply text-lime-100 hover:text-green-700 ease-in duration-300;
   }
   .text-lime-200{
-    @apply hover:text-gradient
+    @apply hover:text-gradient ease-in duration-300;
   }
   .menuNav{
-    @apply  text-green-700 hover:text-lime-200
+    @apply  text-green-700 hover:text-lime-200 ease-in duration-300;
   }
   .menuNavbar{
     @apply  hover:text-lime-200
   }
   .icolink{
-    @apply hover:bg-gradient-to-r from-[#10B981] to-[#bef264] hover:text-white
+    @apply hover:bg-gradient-to-r from-[#10B981] to-[#bef264] hover:text-white ease-in duration-300
   }
 }
 

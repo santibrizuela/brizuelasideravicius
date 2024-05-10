@@ -42,7 +42,7 @@ const Navbar = () => {
                 href='https://wa.link/1q16ii'
                 className='uppercase'
             >
-                <button className='btn btn-lg btn-outline flex items-center'>
+                <button className='btn btn-lg btn-outline flex items-center ease-in duration-300'>
                   Contactanos 
                 </button>
             
@@ -52,7 +52,7 @@ const Navbar = () => {
             <div className=''>
               <ul
               
-                className={shadow ? 'hidden md:flex font-semibold text-light' : 'hidden md:flex font-semibold text-black'}>
+                className={shadow ? 'hidden md:flex font-semibold text-light ease-in duration-300' : 'hidden md:flex font-semibold text-slate-900 ease-in duration-300'}>
                 <a href='/'>
                   <li className='ml-10 text-sm uppercase menuNavbar'>Inicio</li>
                 </a>

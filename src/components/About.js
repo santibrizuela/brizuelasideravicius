@@ -36,7 +36,7 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className='flex-1 text-center lg:text-start'
           >
-            <h2 className='h2 text-lime-200 w-max mx-auto'>About us.</h2>
+            <h2 className='h2 text-lime-100 w-max mx-auto'>About us.</h2>
             <h3 className='h3 mb-4'>
               Nos dedicamos al <a href='/branding' className='text-gradient text-lime-200'>Diseño Gráfico</a>,
               <a href='/webdevelopment' className='text-gradient text-lime-200'> Desarrollo Web</a> y 

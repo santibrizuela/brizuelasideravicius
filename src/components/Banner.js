@@ -35,7 +35,7 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
           >
-            <span className='text-gradient mr-4'>
+            <span className='text-lime-100 mr-4'>
               <TypeAnimation sequence={[
                 'Diseño',
                 2000,
@@ -61,7 +61,7 @@ const Banner = () => {
              className='mb-8 max-w-lg mx-auto lg:mx-0'
           >
             Digitalizamos tu marca. Te potenciamos en el mundo digital 
-            utilizando <a href='/branding' className='font-bold text-lime-200'>Diseño Gráfico</a>, <a href='/webdevelopment' className='font-bold text-lime-200'>Desarrollo Web</a> y <a href='/marketing' className='font-bold text-lime-200'>Marketing Digital</a>.
+            utilizando <a href='/branding' className='font-bold'>Diseño Gráfico</a>, <a href='/webdevelopment' className='font-bold'>Desarrollo Web</a> y <a href='/marketing' className='font-bold'>Marketing Digital</a>.
           </motion.p>
           <motion.div 
              variants={fadeIn('up', 0.6)} 
@@ -86,7 +86,7 @@ const Banner = () => {
              initial="hidden" 
              whileInView={'show'} 
              viewport={{once: false, amount: 0.7}}
-             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
+             className='flex text-4xl gap-x-6 max-w-max mx-auto lg:mx-0'
           >
             <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
               <FaInstagram className='icon-color'/>

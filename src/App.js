@@ -16,7 +16,7 @@ import Branding from './pages/Branding';
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-slate-900 bg-no-repeat bg-cover overflow-hidden'>
       
       <Navbar />
       <WhatsappScroll />

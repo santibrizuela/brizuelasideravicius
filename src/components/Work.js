@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 // img
 import portfolioDivano3 from '../assets/portfolioDivano3.png';
-import portfolioZetaGroup from '../assets/portfolioZetaGroup.png';
+import portfolioOrgsach from '../assets/portfolioOrgsach.png';
 import portfolioCe from '../assets/portfolioCePasteleria.png';
 
 const Work = () => {
@@ -23,7 +23,7 @@ const Work = () => {
           <div>
             
             <h2 className='h2 leading-tight font-bold text-lime-200 mx-auto'>
-              <a href='/skills' className='text-gradient text-lime-200 w-min'>
+              <a href='/portfolio' className='text-gradient text-lime-200 w-min'>
                   Servicios <br />
                   Digitales.
               </a>
@@ -40,7 +40,7 @@ const Work = () => {
             </a>
             
           </div>
-          {/* image */}
+          {/* ORGSACH */}
           <div className='group relative overflow-hidden border-2 
           border-white/50 rounded-xl'>
             {/* overlay */}
@@ -48,24 +48,24 @@ const Work = () => {
             z-40 transition-all duration-300'></div>
             {/* img */}
             <img 
-              className='scale-125 group-hover:scale-150 transition-all duration-500' 
-              src={portfolioZetaGroup} 
-              alt='Zeta Group' 
+              className='scale-100 group-hover:scale-150 transition-all duration-500' 
+              src={portfolioOrgsach} 
+              alt='Organización Sach' 
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Diseño UX/UI</span>             
+              <span className='text-gradient'>Diseño y Desarrollo Web</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>ZETA GROUP</span>
+              <span className='text-3xl text-white'>ORG SACH</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
+                <a href='https://orgsach.netlify.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
@@ -92,7 +92,7 @@ const Work = () => {
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollo Frontend y de Marca</span>             
+              <span className='text-gradient'>Desarrollo de Marca y Frontend</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 

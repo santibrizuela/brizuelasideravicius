@@ -40,7 +40,7 @@ const ProjectsFull = () => {
             {/* status */}
             <p className='absolute -bottom-full left-12 
             group-hover:bottom-32 transition-all duration-500 z-30'>
-                Proyecto Online
+                En Desarrollo
             </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
@@ -95,41 +95,6 @@ const ProjectsFull = () => {
                 </a>
             </div>
         </div>
-        {/* crudauthcart */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img9} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                En Desarrollo
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>ReactApp, MongoDB, NextJS</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>CRUD AUTH CART</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://cartauthcrud.netlify.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
         {/* amazonclon */}
         <div className='group relative overflow-hidden border-2 
         border-white/50 rounded-xl'>
@@ -161,6 +126,41 @@ const ProjectsFull = () => {
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-30'>
                 <a href='https://rreenext.vercel.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* crudauthcart */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img9} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                En Desarrollo
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>ReactApp, MongoDB, NextJS</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>CRUD AUTH CART</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://cartauthcrud.netlify.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
@@ -215,12 +215,12 @@ const ProjectsFull = () => {
             {/* status */}
             <p className='absolute -bottom-full left-12 
             group-hover:bottom-32 transition-all duration-500 z-30'>
-                Proyecto Activo
+                Proyecto Finalizado
             </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>Desarrollo Frontend y de Marca</span>             
+            <span className='text-gradient'>Desarrollo de Marca y Frontend</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
