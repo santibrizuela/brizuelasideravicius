@@ -49,7 +49,7 @@ const ProjectsFull = () => {
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Organización Sach</span>
+            <span className='text-3xl text-white uppercase'>org Sach</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
