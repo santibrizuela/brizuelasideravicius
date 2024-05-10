@@ -21,7 +21,6 @@ const ProjectsFull = () => {
     <div className='grid gap-8'>
         <motion.div 
         variants={fadeIn('right', 0.2)}
-        initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
         className='flex-1 flex flex-col md:grid md:grid-cols-3 gap-3'>
