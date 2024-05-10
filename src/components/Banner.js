@@ -20,7 +20,7 @@ const Banner = () => {
         {/* text */}
         <div className='flex-1 text-center font-secondary lg:text-left lg:justify-start'>
           <motion.h1 
-            variants={fadeIn('up', 0.3)} 
+            variants={fadeIn('down', 0.3)} 
             initial="hidden" 
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}} 
@@ -29,11 +29,11 @@ const Banner = () => {
             <a href='/' className='font-bold'>BRIZUELA<br/> <span>SIDERAVICIUS</span></a>
           </motion.h1>
           <motion.div 
-             variants={fadeIn('up', 0.4)} 
+             variants={fadeIn('down', 0.4)} 
              initial="hidden" 
              whileInView={'show'} 
              viewport={{once: false, amount: 0.7}}
-             className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
+             className='mb-6 mt-2 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
           >
             <span className='text-lime-100 mr-4'>
               <TypeAnimation sequence={[

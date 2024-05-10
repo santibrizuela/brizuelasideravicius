@@ -21,7 +21,7 @@ body {
     #047857 100%,
     #bef264 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(74, 222, 128, 0.51);
+  transition: ease-in 300ms;
 }
 
 .btn:hover {
@@ -32,6 +32,8 @@ body {
     #bef264 100%,
     #d9f99d 117.04%
   );
+  box-shadow: 0px 2px 12px rgba(74, 222, 128, 0.51);
+  transition: ease-in 300ms;
 }
 
 .gradient,
