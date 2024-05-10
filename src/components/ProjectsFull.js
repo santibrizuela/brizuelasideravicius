@@ -6,7 +6,7 @@ import { fadeIn } from '../variants';
 // img
 import Img1 from '../assets/portfolioZetaGroup.png';
 import Img2 from '../assets/portfolioDivano3.png';
-import Img3 from '../assets/portfolioResisten.png';
+import Img3 from '../assets/portfolioOrgsach.png';
 import Img4 from '../assets/portfolioNetflix.png';
 import Img5 from '../assets/portfolioREO.png';
 import Img6 from '../assets/portfolioMadero.png';
@@ -18,14 +18,49 @@ const ProjectsFull = () => {
   return (
 <section className='section my-24' id='projects'>
     <div className='container mx-auto'>
-    <div className='grid md:grid-cols-3 gap-8'>
+    <div className='grid gap-8'>
         <motion.div 
         variants={fadeIn('right', 0.2)}
         initial='hidden'
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
-        className='flex-1 flex flex-col gap-y-10'>
-        {/* image */}
+        className='flex-1 flex flex-col md:grid md:grid-cols-3 gap-3'>
+        {/* orgsach */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img3} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                Proyecto Online
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>NextJS y Alojamiento</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>Organización Sach</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://orgsach.netlify.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* reo */}
         <div className='group relative overflow-hidden border-2 
         border-white/50 rounded-xl'>
             {/* overlay */}
@@ -60,196 +95,7 @@ const ProjectsFull = () => {
                 </a>
             </div>
         </div>
-        {/* image */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img2} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                Proyecto Activo
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>Desarrollo Frontend y de Marca</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Divano</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://ferreteria-divano.vercel.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
-        {/* image */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img1} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                Proyecto Entregado
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>UI/UX Design NextJS</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Zeta Group</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
-        </motion.div>
-        <motion.div 
-        variants={fadeIn('down', 0.2)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{ once: false, amount: 0.3 }}
-        className='flex-1 flex flex-col gap-y-10'>
-        {/* image */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img7} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                En Desarrollo
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>Cart & Payment</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Amazon Clon</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://rreenext.vercel.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
-        {/* image */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img4} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                EN MANTENIMIENTO
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>ReactApp Auth Firebase</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Netflix Clon</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://netflix-react-js-f41dc.web.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
-        {/* image */}
-        <div className='group relative overflow-hidden border-2 
-        border-white/50 rounded-xl'>
-            {/* overlay */}
-            <div className=' group-hover:bg-black/70 w-full h-full absolute 
-            z-30 transition-all duration-300'></div>
-            {/* img */}
-            <img 
-            className='group-hover:scale-125 transition-all duration-500' 
-            src={Img8} 
-            alt='img' 
-            />
-            {/* status */}
-            <p className='absolute -bottom-full left-12 
-            group-hover:bottom-32 transition-all duration-500 z-30'>
-                Plantilla Online
-            </p>
-            {/* pretitle */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>HTML-CSS-JS</span>             
-            </div>
-            {/* title */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>Landingpage</span>
-            </div>
-            {/* button */}
-            <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://santibrizuela.github.io/portfoliolanding/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
-                </a>
-            </div>
-        </div>
-        </motion.div>
-        <motion.div 
-        variants={fadeIn('left', 0.2)}
-        initial='hidden'
-        whileInView={'show'}
-        viewport={{ once: false, amount: 0.3 }}
-        className='flex-1 flex flex-col gap-y-10'>
-        {/* image */}
+        {/* crudauthcart */}
         <div className='group relative overflow-hidden border-2 
         border-white/50 rounded-xl'>
             {/* overlay */}
@@ -284,7 +130,112 @@ const ProjectsFull = () => {
                 </a>
             </div>
         </div>
-        {/* image */}
+        {/* amazonclon */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img7} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                En Desarrollo
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>Cart & Payment</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>Amazon Clon</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://rreenext.vercel.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* santibrizuela */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img8} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                Plantilla Online
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>HTML-CSS-JS</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>Landingpage</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://santibrizuela.github.io/portfoliolanding/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* divano */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img2} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                Proyecto Activo
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>Desarrollo Frontend y de Marca</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>Divano</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://ferreteria-divano.vercel.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* maderoimprime */}
         <div className='group relative overflow-hidden border-2 
         border-white/50 rounded-xl'>
             {/* overlay */}
@@ -319,7 +270,7 @@ const ProjectsFull = () => {
                 </a>
             </div>
         </div>
-        {/* image */}
+        {/* netflixclon */}
         <div className='group relative overflow-hidden border-2 
         border-white/50 rounded-xl'>
             {/* overlay */}
@@ -328,28 +279,63 @@ const ProjectsFull = () => {
             {/* img */}
             <img 
             className='group-hover:scale-125 transition-all duration-500' 
-            src={Img3} 
+            src={Img4} 
             alt='img' 
             />
             {/* status */}
             <p className='absolute -bottom-full left-12 
             group-hover:bottom-32 transition-all duration-500 z-30'>
-                Proyecto Online
+                EN MANTENIMIENTO
             </p>
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-30'>
-            <span className='text-gradient'>ReactApp, DNS y Alojamiento</span>             
+            <span className='text-gradient'>ReactApp Auth Firebase</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-14 transition-all duration-700 z-30'>
-            <span className='text-3xl text-white uppercase'>RE-SIS-TEN.COM</span>
+            <span className='text-3xl text-white uppercase'>Netflix Clon</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-30'>
-                <a href='https://resisten.com.ar/' target='_blank' rel="noreferrer">
+                <a href='https://netflix-react-js-f41dc.web.app/' target='_blank' rel="noreferrer">
+                    <button className='btn btn-sm'>DEMO</button>
+                </a>
+            </div>
+        </div>
+        {/* zetagroup */}
+        <div className='group relative overflow-hidden border-2 
+        border-white/50 rounded-xl'>
+            {/* overlay */}
+            <div className=' group-hover:bg-black/70 w-full h-full absolute 
+            z-30 transition-all duration-300'></div>
+            {/* img */}
+            <img 
+            className='group-hover:scale-125 transition-all duration-500' 
+            src={Img1} 
+            alt='img' 
+            />
+            {/* status */}
+            <p className='absolute -bottom-full left-12 
+            group-hover:bottom-32 transition-all duration-500 z-30'>
+                Proyecto Entregado
+            </p>
+            {/* pretitle */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-24 transition-all duration-500 z-30'>
+            <span className='text-gradient'>UI/UX Design NextJS</span>             
+            </div>
+            {/* title */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-14 transition-all duration-700 z-30'>
+            <span className='text-3xl text-white uppercase'>Zeta Group</span>
+            </div>
+            {/* button */}
+            <div className='absolute -bottom-full left-12 
+            group-hover:bottom-2 transition-all duration-700 z-30'>
+                <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
                     <button className='btn btn-sm'>DEMO</button>
                 </a>
             </div>
